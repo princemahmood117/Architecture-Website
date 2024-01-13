@@ -87,10 +87,80 @@ header {
     font-weight: 400;
 }
 
-.banner img{
+.banner img {
     margin-top: 20px;
     width: 100%;
 }
+
+
+main {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.team-container {
+    display: flex;
+}
+
+.text-features {
+    color: #FF900E;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.team-description {
+    color: var(--Dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.team-img-comtainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.team-content {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.quick {
+    color: #727272;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.our {
+    color: #131313;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* responsive */
@@ -107,28 +177,28 @@ header {
         flex-direction: column;
 
     }
-    
+
 }
 
 /* for medium devices */
 
 @media screen and (min-width:567px) and (max-width:960px) {
 
-    nav{
+    nav {
         flex-direction: column;
     }
 
     header {
         padding: 50px;
     }
-    
+
 }
 
 /* semi larger devices */
 
 @media screen and (min-width:1024px) and (max-width:1400px) {
-    nav{
+    nav {
         flex-direction: column;
     }
-    
+
 }
